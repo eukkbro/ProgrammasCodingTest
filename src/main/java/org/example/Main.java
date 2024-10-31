@@ -3,11 +3,11 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        MaxAndMin maxAndMin = new MaxAndMin();
+        CorrectParentheses correctParentheses = new CorrectParentheses();
 
-        String s = "-2 -81 1 2 3 4";
+        String s = "()()";
 
-        System.out.println(maxAndMin.solution1(s));
+        System.out.println(correctParentheses.solution1(s));
 
     }
 }
