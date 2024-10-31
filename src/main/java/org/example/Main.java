@@ -1,11 +1,13 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
-        CreateJadenCase createJadenCase = new CreateJadenCase();
+        RepeatBinaryConversion repeatBinaryConversion = new RepeatBinaryConversion();
 
-        System.out.println(createJadenCase.solution1("3hello WoRld"));
+        System.out.println(Arrays.toString(repeatBinaryConversion.solution1("110010101001")));
 
     }
 }
