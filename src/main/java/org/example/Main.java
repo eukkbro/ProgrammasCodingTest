@@ -3,12 +3,9 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        CreateMinimum createMinimum = new CreateMinimum();
+        CreateJadenCase createJadenCase = new CreateJadenCase();
 
-        int[] A = {1,2};
-        int[] B = {3,4};
-
-        System.out.println(createMinimum.solution1(A,B));
+        System.out.println(createJadenCase.solution1("3hello WoRld"));
 
     }
 }
