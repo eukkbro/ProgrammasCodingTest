@@ -3,11 +3,12 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        CorrectParentheses correctParentheses = new CorrectParentheses();
+        CreateMinimum createMinimum = new CreateMinimum();
 
-        String s = "()()";
+        int[] A = {1,2};
+        int[] B = {3,4};
 
-        System.out.println(correctParentheses.solution1(s));
+        System.out.println(createMinimum.solution1(A,B));
 
     }
 }
