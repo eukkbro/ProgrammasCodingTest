@@ -2,6 +2,10 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        ExpressionOfNumbers expressionOfNumbers = new ExpressionOfNumbers();
+
+        System.out.println(expressionOfNumbers.solution1(15));
+
     }
 }
