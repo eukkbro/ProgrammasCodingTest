@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-       NextBigNumber nextBigNumber = new NextBigNumber();
+       Fibonacci fibonacci = new Fibonacci();
 
-        System.out.println(nextBigNumber.solution1(15));
-        System.out.println(nextBigNumber.solution2(15));
+        System.out.println(fibonacci.solution1(15));
+        System.out.println(fibonacci.solution2(15));
 
 
     }
