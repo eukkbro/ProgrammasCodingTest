@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-       Fibonacci fibonacci = new Fibonacci();
+      RemoveInPairs removeInPairs = new RemoveInPairs();
 
-        System.out.println(fibonacci.solution1(15));
-        System.out.println(fibonacci.solution2(15));
+        System.out.println(removeInPairs.solution1("baabaa"));
+        System.out.println(removeInPairs.solution1("cdcd"));
 
 
     }
