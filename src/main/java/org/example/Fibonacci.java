@@ -39,6 +39,21 @@ public class Fibonacci {
         return fibonacci[n];
     }
 
-   
+    //ArrayList 활용
+    int solution2(int n){
+
+        ArrayList<Integer> fibonacciArrayList = new ArrayList<>();
+
+        //F(0)=0 과 F(1)=1 저장
+        fibonacciArrayList.add(0);
+        fibonacciArrayList.add(1);
+
+        for(int i = 2; i<=n; i++){
+            fibonacciArrayList.add((fibonacciArrayList.get(i-1) +
+                    fibonacciArrayList.get(i-2))%1234567 );
+        }
+
+        return fibonacciArrayList.get(n);
+    }
 
 }
