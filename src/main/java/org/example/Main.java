@@ -5,9 +5,11 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        RepeatBinaryConversion repeatBinaryConversion = new RepeatBinaryConversion();
+       NextBigNumber nextBigNumber = new NextBigNumber();
 
-        System.out.println(Arrays.toString(repeatBinaryConversion.solution1("110010101001")));
+        System.out.println(nextBigNumber.solution1(15));
+        System.out.println(nextBigNumber.solution2(15));
+
 
     }
 }

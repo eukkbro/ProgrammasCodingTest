@@ -16,8 +16,10 @@ package org.example;
 
 public class NextBigNumber {
 
-    int solution(int n){
-        
+    //Integer.toBinaryString() 활용
+    //solution1()
+    int solution1(int n){
+
         //n의 이진수에서 1의 개수를 세기
         int nCount = Integer.toBinaryString(n).replace("0","").length();
 
@@ -31,6 +33,28 @@ public class NextBigNumber {
 
         return nextNumber;
 
-    }
+    }    //solution1()
+
+
+
+    //Integer.BitCode() 활용
+    //solution2()
+    int solution2(int n){
+
+        //n의 이진수에서 1의 개수를 세기
+        int nCount = Integer.bitCount(n);
+
+        //n보다 큰수중 작은수 정의
+        int nextNumber = n+1;
+
+        //해당조건이 맞을때까지 반복문 돌리기
+        while(Integer.bitCount(nextNumber) != nCount){
+            nextNumber++;
+        }
+
+        return nextNumber;
+
+    }    //solution2()
+
 
 }
