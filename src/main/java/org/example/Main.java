@@ -6,11 +6,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        Carpet carpet = new Carpet();
+        NLCM nlcm = new NLCM();
 
-        System.out.println(Arrays.toString(carpet.solution1(10, 2)));
-        System.out.println(Arrays.toString(carpet.solution1(8, 1)));
-        System.out.println(Arrays.toString(carpet.solution1(24, 24)));
+        System.out.println(nlcm.solution1(new int[] {2,6,8,14}));
+        System.out.println(nlcm.solution1(new int[] {1,2,3}));
 
 
     }
