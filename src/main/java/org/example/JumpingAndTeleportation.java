@@ -56,4 +56,11 @@ public class JumpingAndTeleportation {
 
     }
 
+
+    //신박한 풀이
+    //미췬....
+    int solution2(int n){
+        return Integer.bitCount(n);
+    }
+
 }
