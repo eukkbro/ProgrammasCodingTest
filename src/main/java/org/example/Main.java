@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-       ConcludingEnglishEndings concludingEnglishEndings = new ConcludingEnglishEndings();
+      Boat boat = new Boat();
 
-       String[] words = new String[]{"tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"};
+      int[] people = {70,50,80};
 
-        System.out.println(Arrays.toString(concludingEnglishEndings.solution1(3, words)));
+      System.out.println(boat.solution1(people,100));
 
 
     }
