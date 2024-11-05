@@ -5,11 +5,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-      Boat boat = new Boat();
+      ChoosingTangerines choosingTangerines = new ChoosingTangerines();
 
-      int[] people = {70,50,80};
-
-      System.out.println(boat.solution1(people,100));
+      System.out.println(choosingTangerines.solution1(6,new int[] {1, 3, 2, 5, 4, 5, 2, 3}));
 
 
     }
