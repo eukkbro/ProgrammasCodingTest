@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afbfb125-e720-42d5-9965-326727cceb73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ChoosingTangerines.java" afterDir="false" />
+    <list default="true" id="afbfb125-e720-42d5-9965-326727cceb73" name="Changes" comment="프로그래머스 Lv2 - 귤 고르기 solution1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LongJump.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -74,6 +74,20 @@
       <option name="presentableId" value="Default" />
       <updated>1730364497646</updated>
     </task>
+    <task id="LOCAL-00001" summary="프로그래머스 Lv2 - 귤 고르기 solution1">
+      <option name="closed" value="true" />
+      <created>1730798106643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730798106643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="프로그래머스 Lv2 - 구명보트 solution1" />
+    <MESSAGE value="프로그래머스 Lv2 - 귤 고르기 solution1" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 Lv2 - 귤 고르기 solution1" />
   </component>
 </project>
