@@ -5,10 +5,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
+        ExpectedBracket expectedBracket = new ExpectedBracket();
 
-        LongJump longJump = new LongJump();
-
-        System.out.println(longJump.solution1(10));
+        System.out.println(expectedBracket.solution1(8,4,7));
 
     }
 }
